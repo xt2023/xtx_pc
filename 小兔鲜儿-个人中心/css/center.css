@@ -1,0 +1,279 @@
+.xtx_body {
+    background-color: #f6f6f6;
+    padding: 30px 0 85px;
+}
+.xtx_body .wrapper {
+    display: flex;
+}
+
+.xtx_body .aside {
+    margin-right: 18px;
+    width: 227px;
+    min-height: 500px;
+    background-color: #ffffff;
+}
+
+/*侧边栏*/
+.aside .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    height: 232px;
+    border-bottom: 1px solid #f4f4f4;
+}
+.aside .header img {
+    margin-top: 47px;
+    width: 85px;
+}
+.aside .header p {
+    font-size: 18px;
+    margin: 10px;
+}
+.aside .header .vip {
+    background-color: #e3653e;
+    border-radius: 13px;
+    width: 93px;
+    height: 26px;
+}
+.aside .header .vip image {
+    width: 15px;
+}
+    /*侧边栏*/
+
+
+.xtx_body .mian {
+    flex: 1;
+    min-height: 500px;
+    /*background-color: skyblue;*/
+}
+.overview {
+    height: 132px;
+    background-color: #ffffff;
+    margin-bottom: 18px;
+    display: flex;
+
+}
+.overview div {
+    flex: 1;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+.overview div:first-child {
+    border-right: 1px solid #f4f4f4;
+}
+.overview div img {
+    width: 25px;
+    margin-bottom: 10px;
+}
+.overview div a:nth-child(3) img {
+    width: 18px;
+}
+.overview div a p {
+    font-size: 16px;
+}
+.overview span {
+    font-size: 25px;
+    color: #e05e30;
+}
+
+/*公共样式*/
+.panner {
+    padding: 28px 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+.mian .orders .pannel_title {
+    display: flex;
+    justify-content: space-between;
+}
+.mian .orders .pannel_title h4 {
+    font-size: 22px;
+    font-weight: normal;
+    color: #333333;
+}
+.mian .orders .pannel_title a {
+    margin-top: 8px;
+    color: #999999;
+}
+
+/*公共样式*/
+
+/*订单*/
+.mian .orders  .content li {
+    display: flex;
+    border: 1px solid #f4f4f4;
+    margin: 20px;
+    height: 137px;
+}
+.mian .orders  .content li:last-child {
+    margin-bottom: 0;
+}
+.orders li .goods {
+    padding: 17px 0 14px 12px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-right: 100px;
+}
+.orders li .goods img {
+    width: 107px;
+}
+.orders li .goods h4 {
+    color: #333333;
+}
+
+.orders li .goods p {
+    color: #999999;
+    font-size: 14px;
+}
+/*省略号的写法*/
+.orders .goods .text {
+    flex: 1;
+    width: 0;
+}
+
+.orders .goods .text h4 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+/*省略号的写法*/
+
+.orders li:first-child .status {
+    width: 120px;
+    text-align: center;
+    line-height: 137px;
+    color: #e05e30;
+    font-size: 14px;
+}
+
+.orders li .common {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.orders li .pay {
+    width: 200px;
+    border-right: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+}
+.orders li .pay p:first-child {
+    color: #9a2e1f;
+}
+.orders li .pay p:nth-child(2) {
+    line-height: 25px;
+}
+
+.orders li .action {
+    width: 180px;
+}
+.orders li .action a:first-child {
+    width: 100px;
+    height: 30px;
+    background-color:#5eb69c;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+}
+.orders li .action a:nth-child(2) {
+    margin-top: 13px;
+    margin-bottom: 7px;
+}
+
+
+
+
+
+.orders li:last-child .goods {
+    padding: 17px 0 14px 12px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-right: 100px;
+}
+.orders li:last-child .goods img {
+    width: 107px;
+}
+.orders li:last-child .goods h4 {
+    color: #333333;
+}
+
+.orders li:last-child .goods p {
+    color: #999999;
+    font-size: 14px;
+}
+/*省略号的写法*/
+.orders .goods .text {
+    flex: 1;
+    width: 0;
+}
+
+.orders .goods .text h4 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+/*省略号的写法*/
+
+.orders li:last-child .status {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #e05e30;
+
+}
+
+.orders li:last-child .status a {
+    color: #999999;
+    margin-top: 3px;
+}
+
+.orders li:last-child .common {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.orders li:last-child .pay {
+    width: 200px;
+    border-right: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+}
+.orders li:last-child .pay p:first-child {
+    color: #9a2e1f;
+}
+.orders li:last-child .pay p:nth-child(2) {
+    line-height: 25px;
+}
+
+.orders li:last-child .action {
+    width: 180px;
+}
+.orders li:last-child .action a:first-child {
+    width: 100px;
+    height: 30px;
+    background-color:#5eb69c;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+}
+.orders li:last-child .action a:nth-child(2) {
+    margin-top: 13px;
+    margin-bottom: 7px;
+}
+/*订单*/
